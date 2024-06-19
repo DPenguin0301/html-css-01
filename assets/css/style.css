@@ -592,7 +592,7 @@ a {
 }
 .footer .social-link{
     display: flex;
-    margin-left: 16px;
+    
     align-items: center;
     justify-content: center;
     width: 28px;
@@ -600,8 +600,8 @@ a {
     border-radius: 3px;
 
 }
-.footer .social-link:first-child{
-    margin: 0;
+.footer .social-link + .social-link{
+    margin-left: 16px;
 }
 .footer .social-link:hover{
     background: #ebebeb;
