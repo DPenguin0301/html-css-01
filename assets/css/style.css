@@ -61,6 +61,7 @@ a {
 .hero-wrap{
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background: #E6F0FF;
     height: calc(100vh - 90px);
@@ -68,7 +69,6 @@ a {
 .navbar{
     display: flex;
     align-items: center;
-    /* padding-top:38px; */
     padding: 12px 0;
     
 }
@@ -83,7 +83,7 @@ a {
     font-size: 1.4rem;
     font-weight: 500;
     color:#4F5361;
-    padding:8px 1.4rem;
+    padding:8px 14px;
 
 }
 .navbar ul a:hover{
@@ -101,16 +101,11 @@ a {
     border-radius: 8px;
 } 
 
-.hero{
 
-    margin-top: 150px;
-}
-.hero .info{
-    /* giá trị witdh hero: width contain */
+.hero-wrap .info{
     width: 51%;
-    padding-bottom: 150px;
 }
-.hero .sub-title{
+.hero-wrap .sub-title{
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -118,7 +113,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title{
+.hero-wrap .title{
     margin-top: 8px;
     color: #000336;
     font-size: 6.4rem;
@@ -126,7 +121,7 @@ a {
     line-height: 1.19; 
 }
 
-.hero .desc{
+.hero-wrap .desc{
     margin-top: 30px;
     color: #5A6473;
     font-size: 1.8rem;
@@ -149,8 +144,6 @@ a {
 .clients{
     margin-top: 79px;
     padding: 43px 0 64px;
-    
-
 }
 .clients .row{
     display: flex;
